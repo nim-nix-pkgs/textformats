@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-textformats-v1_1_0.flake = false;
+  inputs.src-textformats-v1_1_0.ref   = "refs/tags/v1.1.0";
   inputs.src-textformats-v1_1_0.owner = "ggonnella";
-  inputs.src-textformats-v1_1_0.ref   = "v1_1_0";
   inputs.src-textformats-v1_1_0.repo  = "textformats";
   inputs.src-textformats-v1_1_0.type  = "github";
   

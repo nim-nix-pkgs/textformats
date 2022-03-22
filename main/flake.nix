@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-textformats-main.flake = false;
+  inputs.src-textformats-main.ref   = "refs/heads/main";
   inputs.src-textformats-main.owner = "ggonnella";
-  inputs.src-textformats-main.ref   = "main";
   inputs.src-textformats-main.repo  = "textformats";
   inputs.src-textformats-main.type  = "github";
   
