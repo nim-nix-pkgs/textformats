@@ -11,6 +11,7 @@
   inputs.src-textformats-main.ref   = "refs/heads/main";
   inputs.src-textformats-main.owner = "ggonnella";
   inputs.src-textformats-main.repo  = "textformats";
+  inputs.src-textformats-main.dir   = "";
   inputs.src-textformats-main.type  = "github";
   
   inputs."cligen".owner = "nim-nix-pkgs";
